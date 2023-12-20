@@ -1,0 +1,912 @@
+{
+  "library": [
+    {
+      "book": {
+        "title": "Crimen y castigo",
+        "pages": 944,
+        "genre": "Ficción",
+        "cover": "https://porrua.mx/media/catalog/product/l/9/l9786070911538-1.jpg?quality=80&bg-color=255,255,255&height=525&width=350&canvas=350:525",
+        "synopsis": "Crimen y castigo es el retrato psicológico de un crimen, la historia de un antihéroe que cree ser lo contrario.",
+        "year": 1866,
+        "ISBN": "978-6070911538",
+        "author": {
+          "name": "Fedor Mijáilovich Dostoievski",
+          "otherbooks": ["Los hermanos Karamazov", "El jugador"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Georges",
+        "pages": 1843,
+        "genre": "Ficción",
+        "cover": "https://porrua.mx/media/catalog/product/imp/ort/l9789700775005.jpg?quality=80&bg-color=255,255,255&height=525&width=350&canvas=350:525",
+        "synopsis": "Georges es hijo de un mulato adinerado, natural de la Ile de France (hoy Mauricio), con una tez tan clara que podría pasar por blanco.",
+        "year": 472,
+        "ISBN": "978-8419311276",
+        "author": {
+          "name": "Alexandre Dumas",
+          "otherbooks": ["Los tres mosqueteros", "Amaury"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Así habló Zaratustra",
+        "pages": 206,
+        "genre": "Filosofía",
+        "cover": "https://editoresmexicanosunidos.mx/wp-content/uploads/2022/02/GL-asi-hablo-zarathustra.png",
+        "synopsis": "Un libro para todos y para nadie es un libro escrito entre 1883 y 1885 por el filósofo alemán Friedrich Nietzsche, considerado su obra maestra.",
+        "year": 1883,
+        "ISBN": "978-6071431554",
+        "author": {
+          "name": "Friedrich Nietzsche",
+          "otherbooks": ["La Muerte de Dios", "Ecce homo"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "La canción de Aquiles",
+        "pages": 392,
+        "genre": "Novela",
+        "cover": "https://imagenesal.bros.me/9788413622132.jpg",
+        "synopsis": "Grecia en la era de los héroes. Patroclo, un príncipe joven y torpe, ha sido exiliado al reino de Ftía, donde vive a la sombra del rey Peleo y su hijo divino, Aquiles.",
+        "year": 2011,
+        "ISBN": "978-6075508054",
+        "author": {
+          "name": "Madeline Miller",
+          "otherbooks": ["Galatea", "HEREDERA EN SEDA ROJA"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Tres ensayos sobre la religion",
+        "pages": 196,
+        "genre": "Filosofía",
+        "cover": "https://www.trotta.es/static/img/portadas/9788498794847.png",
+        "synopsis": "John Stuart Mill escribió en su autobiografía que era uno de los pocos ejemplos en Gran Bretaña de alguien que no es que hubiera abandonado las creencias religiosas, sino que nunca las tuvo.",
+        "year": 1874,
+        "ISBN": "978-8498794847",
+        "author": {
+          "name": "John Stuart Mill",
+          "otherbooks": ["Sobre la libertad", "El sometimiento de la mujer"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Riding the Bullet (Montado en la Bala)",
+        "pages": 96,
+        "genre": "Terror",
+        "cover": "https://www.gonvill.com.mx/imagenes/9786073/978607312138.JPG",
+        "synopsis": "Alan Parker se ve obligado a hacer autostop para llegar al hospital donde su madre convalece de un grave accidente.",
+        "year": 1948,
+        "ISBN": "9786073121385",
+        "author": {
+          "name": "Stephen King",
+          "otherbooks": ["El visitante", "Cuento de hadas"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Sobre el buen vivir",
+        "pages": 296,
+        "genre": "Filosofía",
+        "cover": "https://www.gandhi.com.mx/media/catalog/product/9/7/9786078678143.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:",
+        "synopsis": "Schopenhauer dedicó sus últimos años a trabajar en una serie de pensamientos dispersos, aunque sistemáticamente ordenados, sobre diversos temas.",
+        "year": 1851,
+        "ISBN": "9786078678143",
+        "author": {
+          "name": "Arthur Schopenhauer",
+          "otherbooks": [
+            "El arte de tener razón",
+            "Sobre la visión y los coloreS"
+          ]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Rebelión en la granja",
+        "pages": 128,
+        "genre": "Ficción",
+        "cover": "https://global-uploads.webflow.com/6034d7d1f3e0f52c50b2adee/62b09b33ea242631be24d3d8_9788418933394.jpeg",
+        "synopsis": "En palabras de George Orwell, Rebelión en la granja es la historia de una revolución que sale mal.",
+        "year": 1945,
+        "ISBN": "9788494773808",
+        "author": {
+          "name": "George Orwell",
+          "otherbooks": ["1984", "Subir a respirar"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Drácula",
+        "pages": 44,
+        "genre": "Terror",
+        "cover": "https://cdn.kobo.com/book-images/9541dc73-a03c-433d-9e2c-9fba5ff67ea5/1200/1200/False/dracula-173.jpg",
+        "synopsis": "Esta es la historia de una bestia sin mora, lleno de maldad que asusta, estremece y horroriza, por su habilidad de seductor sobre todas las mujeres hermosas la aprovecha para después destruirlas.",
+        "year": 1897,
+        "ISBN": "9786078538331",
+        "author": {
+          "name": "Bram Stoker",
+          "otherbooks": ["El entierro de las ratas", "The complete bram stoker"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Relatos de misterio",
+        "pages": 233,
+        "genre": "Terror",
+        "cover": "https://www.gandhi.com.mx/media/catalog/product/t/m/tmp9786071435453_e000.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=478&width=300&canvas=:",
+        "synopsis": "Poe elevó de categoría el cuento, concibiéndolo como una perfecta unidad en la que nada sea superfluo.",
+        "year": 1840,
+        "ISBN": "9786071435453",
+        "author": {
+          "name": "Edgar Allan Poe",
+          "otherbooks": ["El cuervo", "El corazón delator"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Pedir lo imposible",
+        "pages": 160,
+        "genre": "Filosofía",
+        "cover": "https://m.media-amazon.com/images/I/81FhEqfMzsL._AC_UF894,1000_QL80_.jpg",
+        "synopsis": "Después de unos años convulsos e impredecibles, ¿en qué situación se encuentra el mundo hoy? ¿Qué hacer frente a los impulsos conservadores que frenan la utopía?",
+        "year": 2013,
+        "ISBN": "9788446040187",
+        "author": {
+          "name": "Slavoj Zizek",
+          "otherbooks": [
+            "El sublime objeto de la ideología",
+            "Robespierre: virtud y terror"
+          ]
+        }
+      }
+    },
+
+    {
+      "book": {
+        "title": "La juguetería mágica",
+        "pages": 224,
+        "genre": "Ficción",
+        "cover": "https://www.gandhi.com.mx/media/catalog/product/t/m/tmp9788418342950_8502.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=478&width=300&canvas=:",
+        "synopsis": "El verano en que cumplió quince años, Melanie descubrió que era de carne y hueso». Con este arranque empieza La juguetería mágica.",
+        "year": 1984,
+        "ISBN": "9788418342950",
+        "author": {
+          "name": "Angela Carter",
+          "otherbooks": ["Noches en el circo", "Love"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El corazón de Heidegger",
+        "pages": 327,
+        "genre": "Filosofía",
+        "cover": "https://www.gandhi.com.mx/media/catalog/product/t/m/tmp9788425441073_8576.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:",
+        "synopsis": "En este ensayo, Byung-Chul Han relee a Heidegger en todas sus etapas como la reivindicación de un mundo cordial.",
+        "year": 2021,
+        "ISBN": "9788425441073",
+        "author": {
+          "name": " Byung-Chul Han",
+          "otherbooks": [
+            "La agonía del Eros",
+            "Vida contemplativa. Elogio de la inactividad"
+          ]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Palabra!: instantaneas filosoficas",
+        "pages": 104,
+        "genre": "Filosofía",
+        "cover": "https://www.gandhi.com.mx/media/catalog/product/9/7/9788481644944.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=478&width=300&canvas=:",
+        "synopsis": "La palabra de Jacques Derrida aquí transcrita, y originalmente pronunciada en el curso de unas entrevistas mantenidas con Catherine Paoletti y Antoine Spire, nos ilumina sobre la emergencia de este nuevo mundo.",
+        "year": 2001,
+        "ISBN": "9788481644944",
+        "author": {
+          "name": "Jacques Derrida",
+          "otherbooks": ["Adiós a Emmanuel Lévinas", "Espectros de Marx "]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Psicología de las masas",
+        "pages": 77,
+        "genre": "Psicología",
+        "cover": "https://www.gandhi.com.mx/media/catalog/product/9/7/9788420664132_a22f.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=478&width=300&canvas=:",
+        "synopsis": "Psicología de las masas y análisis del yo es una obra de Sigmund Freud publicada en 1921.",
+        "year": 1921,
+        "ISBN": "9788420664132",
+        "author": {
+          "name": "Sigmund Freud",
+          "otherbooks": ["El yo y el ello", "Tótem y tabú"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Homo Deus",
+        "pages": 496,
+        "genre": "Historia",
+        "cover": "https://www.gandhi.com.mx/media/catalog/product/9/7/9786073821292_ab90.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=478&width=300&canvas=:",
+        "synopsis": "Lo que nos hizo sapiens nos hará dioses.",
+        "year": 2015,
+        "ISBN": "9786073821292",
+        "author": {
+          "name": "Yuval Noah Harari",
+          "otherbooks": ["SAPIENS", "IMPARABLES"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Necronomicón",
+        "pages": 206,
+        "genre": "Terror",
+        "cover": "https://www.libreriaproteo.com/portadas/2/8/8/2/7/9788417928827.JPG",
+        "synopsis": "El Necronomicón es un grimorio ficticio ideado por el escritor estadounidense H.P. Lovecraft, uno de los maestros de la literatura de terror y ciencia ficción.",
+        "year": 1954,
+        "ISBN": "9786078678235",
+        "author": {
+          "name": "H. P. Lovecraft",
+          "otherbooks": ["LOS MITOS DE CTHULHU", "BESTIARIO"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Ready Player One",
+        "pages": 384,
+        "genre": "Novela",
+        "cover": "https://m.media-amazon.com/images/I/51UrTnJIgcL._SX322_BO1,204,203,200_.jpg",
+        "synopsis": "Un mundo en juego. La búsqueda del premio final. ¿Estás preparado?",
+        "year": 2012,
+        "ISBN": "978-0307887443",
+        "author": {
+          "name": "Ernest Cline",
+          "otherbooks": [
+            "Armada: A Novel",
+            "The Importance of Being ErnestThe Importance of Being Ernest"
+          ]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Harry Potter y la piedra filosofal",
+        "pages": 223,
+        "genre": "Ficción",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1550337333i/15868.jpg",
+        "synopsis": "Un niño descubre que es un mago y comienza una aventura en una escuela de magia.",
+        "year": 1997,
+        "ISBN": "978-0747532699",
+        "author": {
+          "name": "J.K. Rowling",
+          "otherbooks": [
+            "Harry Potter y la cámara secreta",
+            "Harry Potter y el prisionero de Azkaban",
+            "Harry Potter y el cáliz de fuego"
+          ]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "1984",
+        "pages": 328,
+        "genre": "Ciencia ficción",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1657781256i/61439040.jpg",
+        "synopsis": "Una inquietante visión de un futuro distópico y totalitario.",
+        "year": 1949,
+        "ISBN": "978-0451524935",
+        "author": {
+          "name": "George Orwell",
+          "otherbooks": ["Rebelión en la granja"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Apocalipsis Zombie",
+        "pages": 444,
+        "genre": "Terror",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1422626176i/24762432.jpg",
+        "synopsis": "Un gallego se queda en casa en pleno apocalipsis zombie y acaba casi salvando el mundo",
+        "year": 2001,
+        "ISBN": "978-4444532611",
+        "author": {
+          "name": "Manel Loreiro",
+          "otherbooks": []
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Dune",
+        "pages": 412,
+        "genre": "Ciencia ficción",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555447414i/44767458.jpg",
+        "synopsis": "En el inhóspito planeta desértico de Arrakis, una gran intriga política y familiar se desarrolla.",
+        "year": 1965,
+        "ISBN": "978-0441172719",
+        "author": {
+          "name": "Frank Herbert",
+          "otherbooks": ["El mesías de Dune", "Hijos de Dune"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "La Guía del Autoestopista Galáctico",
+        "pages": 216,
+        "genre": "Ciencia ficción",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1653311117i/6691227.jpg",
+        "synopsis": "Un viaje absurdo y cómico por el espacio, con toallas.",
+        "year": 1979,
+        "ISBN": "978-0345391803",
+        "author": {
+          "name": "Douglas Adams",
+          "otherbooks": [
+            "El restaurante del fin del mundo",
+            "La vida, el universo y todo lo demás"
+          ]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Neuromante",
+        "pages": 271,
+        "genre": "Ciencia ficción",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1554437249i/6088007.jpg",
+        "synopsis": "Una visión profética de la ciber-realidad y la inteligencia artificial.",
+        "year": 1984,
+        "ISBN": "978-0441569595",
+        "author": {
+          "name": "William Gibson",
+          "otherbooks": ["Conde Cero", "Mona Lisa Acelerada"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Fahrenheit 451",
+        "pages": 249,
+        "genre": "Ciencia ficción",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1383718290i/13079982.jpg",
+        "synopsis": "Una sociedad futura donde los libros están prohibidos y 'bomberos' queman cualquier libro que encuentren.",
+        "year": 1953,
+        "ISBN": "978-1451673319",
+        "author": {
+          "name": "Ray Bradbury",
+          "otherbooks": ["Crónicas marcianas", "El hombre ilustrado"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El resplandor",
+        "pages": 688,
+        "genre": "Terror",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1641398308i/60038757.jpg",
+        "synopsis": "Una familia se muda a un hotel aislado para el invierno donde una presencia siniestra influye en el padre hacia la violencia.",
+        "year": 1977,
+        "ISBN": "978-0307743657",
+        "author": {
+          "name": "Stephen King",
+          "otherbooks": ["Carrie", "It"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Drácula",
+        "pages": 418,
+        "genre": "Terror",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1387151694i/17245.jpg",
+        "synopsis": "La historia del infame conde Drácula y su intento de mudarse de Transilvania a Inglaterra.",
+        "year": 1897,
+        "ISBN": "978-0486411095",
+        "author": {
+          "name": "Bram Stoker",
+          "otherbooks": [
+            "La joya de las siete estrellas",
+            "La madriguera del gusano blanco"
+          ]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Frankenstein",
+        "pages": 280,
+        "genre": "Terror",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1669159060i/63631742.jpg",
+        "synopsis": "Un científico obsesionado crea una criatura viva a partir de partes de cuerpos robadas, con consecuencias desastrosas.",
+        "year": 1818,
+        "ISBN": "978-0486282114",
+        "author": {
+          "name": "Mary Shelley",
+          "otherbooks": ["El último hombre", "Valperga"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El Señor de los Anillos",
+        "pages": 1200,
+        "genre": "Ficción",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1566425108i/33.jpg",
+        "synopsis": "Una aventura épica en un mundo de fantasía llamado la Tierra Media.",
+        "year": 1954,
+        "ISBN": "978-0618640157",
+        "author": {
+          "name": "J.R.R. Tolkien",
+          "otherbooks": ["El Hobbit", "El Silmarillion"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Juego de Tronos",
+        "pages": 694,
+        "genre": "Ficción",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1273763400i/8189620.jpg",
+        "synopsis": "En un reino donde las estaciones duran años, una batalla épica por el trono se desarrolla.",
+        "year": 1996,
+        "ISBN": "978-0553103540",
+        "author": {
+          "name": "George R. R. Martin",
+          "otherbooks": [
+            "Choque de Reyes",
+            "Tormenta de Espadas",
+            "Festín de Cuervos"
+          ]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El código Da Vinci",
+        "pages": 454,
+        "genre": "Misterio",
+        "cover": "https://m.media-amazon.com/images/I/41yXkd+9UNL._SY445_SX342_.jpg",
+        "synopsis": "Un profesor de simbología de Harvard se ve envuelto en una serie de misterios relacionados con el Santo Grial.",
+        "year": 2003,
+        "ISBN": "978-1400079179",
+        "author": {
+          "name": "Dan Brown",
+          "otherbooks": ["Ángeles y demonios", "El símbolo perdido"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Orgullo y prejuicio",
+        "pages": 432,
+        "genre": "Romance",
+        "cover": "https://m.media-amazon.com/images/I/81smOptGtLL._SY522_.jpg",
+        "synopsis": "La historia de amor entre Elizabeth Bennet y el señor Darcy en la Inglaterra del siglo XIX.",
+        "year": 1813,
+        "ISBN": "978-0141439518",
+        "author": {
+          "name": "Jane Austen",
+          "otherbooks": ["Sentido y sensibilidad", "Emma"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Cien años de soledad",
+        "pages": 417,
+        "genre": "Realismo mágico",
+        "cover": "https://m.media-amazon.com/images/I/51AHE6C2atL._SY445_SX342_.jpg",
+        "synopsis": "La historia de la familia Buendía a lo largo de varias generaciones en el pueblo ficticio de Macondo.",
+        "year": 1967,
+        "ISBN": "978-0307474728",
+        "author": {
+          "name": "Gabriel García Márquez",
+          "otherbooks": [
+            "El amor en los tiempos del cólera",
+            "Crónica de una muerte anunciada"
+          ]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Moby-Dick",
+        "pages": 585,
+        "genre": "Aventura",
+        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327940656i/153747.jpg",
+        "synopsis": "La obsesión del capitán Ahab por cazar a la gran ballena blanca.",
+        "year": 1851,
+        "ISBN": "978-0142437247",
+        "author": {
+          "name": "Herman Melville",
+          "otherbooks": ["Bartleby, el escribiente", "Billy Budd, marinero"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Don Quijote de la Mancha",
+        "pages": 863,
+        "genre": "Novela",
+        "cover": "https://m.media-amazon.com/images/I/81aqaeQBCsS._SY522_.jpg",
+        "synopsis": "Las aventuras de un caballero enloquecido y su fiel escudero en la España del siglo XVII.",
+        "year": 1605,
+        "ISBN": "978-8424117860",
+        "author": {
+          "name": "Miguel de Cervantes",
+          "otherbooks": ["Novelas ejemplares", "La Galatea"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Los miserables",
+        "pages": 1488,
+        "genre": "Drama",
+        "cover": "https://m.media-amazon.com/images/I/91LRPU72YYL._SY522_.jpg",
+        "synopsis": "La historia de Jean Valjean y su lucha por la redención en la Francia del siglo XIX.",
+        "year": 1862,
+        "ISBN": "978-0140444308",
+        "author": {
+          "name": "Victor Hugo",
+          "otherbooks": ["Nuestra Señora de París", "Los trabajadores del mar"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Ulises",
+        "pages": 768,
+        "genre": "Modernismo",
+        "cover": "https://m.media-amazon.com/images/I/41cNi4seX1L._SY445_SX342_.jpg",
+        "synopsis": "La odisea de Leopold Bloom a través de Dublín en un solo día.",
+        "year": 1922,
+        "ISBN": "978-0141182803",
+        "author": {
+          "name": "James Joyce",
+          "otherbooks": ["Retrato del artista adolescente", "Finnegans Wake"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "En busca del tiempo perdido",
+        "pages": 4215,
+        "genre": "Novela",
+        "cover": "https://m.media-amazon.com/images/I/41uC+Ob3j0L._SY445_SX342_.jpg",
+        "synopsis": "La narración de la vida de Marcel Proust y su búsqueda del tiempo perdido.",
+        "year": 1913,
+        "ISBN": "978-8437604940",
+        "author": {
+          "name": "Marcel Proust",
+          "otherbooks": [
+            "A la sombra de las muchachas en flor",
+            "El mundo de Guermantes"
+          ]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El arte de la guerra",
+        "pages": 96,
+        "genre": "Filosofía",
+        "cover": "https://m.media-amazon.com/images/I/41xxZn2mA3L._SY445_SX342_.jpg",
+        "synopsis": "El arte de la guerra es el mejor libro de estrategia de todos los tiempos.",
+        "year": 1910,
+        "ISBN": "978-8497644169",
+        "author": {
+          "name": "Sun Tzu",
+          "otherbooks": [
+            "El arte de la guerra para las mujeres",
+            "El arte de la guerra para ejecutivos"
+          ]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Hamlet",
+        "pages": 160,
+        "genre": "Tragedia",
+        "cover": "https://m.media-amazon.com/images/I/411mUAH6WDL._SY445_SX342_.jpg",
+        "synopsis": "La tragedia de Hamlet, príncipe de Dinamarca, o simplemente Hamlet, es una tragedia del dramaturgo inglés William Shakespeare.",
+        "year": 1603,
+        "ISBN": "978-8497644170",
+        "author": {
+          "name": "William Shakespeare",
+          "otherbooks": ["Romeo y Julieta", "Macbeth"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El retrato de Dorian Gray",
+        "pages": 304,
+        "genre": "Ficción",
+        "cover": "https://m.media-amazon.com/images/I/51WpJN+6P9L._SY445_SX342_.jpg",
+        "synopsis": "El retrato de Dorian Gray es una novela escrita por el autor irlandés Oscar Wilde.",
+        "year": 1890,
+        "ISBN": "978-8497644171",
+        "author": {
+          "name": "Oscar Wilde",
+          "otherbooks": ["El fantasma de Canterville", "El príncipe feliz"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "La montaña mágica",
+        "pages": 976,
+        "genre": "Ficción",
+        "cover": "https://pictures.abebooks.com/isbn/9788435018388-es.jpg",
+        "synopsis": "La montaña mágica es una novela del escritor alemán Thomas Mann.",
+        "year": 1924,
+        "ISBN": "978-8497644172",
+        "author": {
+          "name": "Thomas Mann",
+          "otherbooks": ["Muerte en Venecia", "Los Buddenbrook"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El proceso",
+        "pages": 304,
+        "genre": "Ficción",
+        "cover": "https://m.media-amazon.com/images/I/51Rm9IBu5TL._SY445_SX342_.jpg",
+        "synopsis": "El proceso es una novela de Franz Kafka, publicada póstumamente en 1925.",
+        "year": 1925,
+        "ISBN": "978-8497644173",
+        "author": {
+          "name": "Franz Kafka",
+          "otherbooks": ["La metamorfosis", "El castillo"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El hombre en busca de sentido",
+        "pages": 184,
+        "genre": "Psicología",
+        "cover": "https://m.media-amazon.com/images/I/413BSRDOlsL._SY445_SX342_.jpg",
+        "synopsis": "El hombre en busca de sentido es un libro de Viktor Frankl.",
+        "year": 1946,
+        "ISBN": "978-8497644174",
+        "author": {
+          "name": "Viktor Frankl",
+          "otherbooks": [
+            "La presencia ignorada de Dios",
+            "La voluntad de sentido"
+          ]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El nombre de la rosa",
+        "pages": 592,
+        "genre": "Ficción",
+        "cover": "https://m.media-amazon.com/images/I/51zha3HBipL._SY445_SX342_.jpg",
+        "synopsis": "El nombre de la rosa es la primera novela del escritor italiano Umberto Eco.",
+        "year": 1980,
+        "ISBN": "978-8497644175",
+        "author": {
+          "name": "Umberto Eco",
+          "otherbooks": ["El péndulo de Foucault", "El cementerio de Praga"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Romeo y Julieta",
+        "pages": 304,
+        "genre": "Tragedia",
+        "cover": "https://m.media-amazon.com/images/I/616qjYabkcL._SY522_.jpg",
+        "synopsis": "Romeo y Julieta es una tragedia de William Shakespeare.",
+        "year": 1597,
+        "ISBN": "978-8497644176",
+        "author": {
+          "name": "William Shakespeare",
+          "otherbooks": ["Hamlet", "Macbeth"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Fundación",
+        "pages": 1204,
+        "genre": "Ciencia ficción",
+        "cover": "https://m.media-amazon.com/images/I/41+kapsmbiL._SY445_SX342_.jpg",
+        "synopsis": "Fundación es una novela de ciencia ficción del estadounidense Isaac Asimov.",
+        "year": 1951,
+        "ISBN": "978-8497644177",
+        "author": {
+          "name": "Isaac Asimov",
+          "otherbooks": ["Yo, robot", "El fin de la eternidad"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El señor de las moscas",
+        "pages": 224,
+        "genre": "Ficción",
+        "cover": "https://m.media-amazon.com/images/I/41IAgI1lCOL._SY445_SX342_.jpg",
+        "synopsis": "El señor de las moscas es una novela del escritor británico William Golding.",
+        "year": 1954,
+        "ISBN": "978-8497644178",
+        "author": {
+          "name": "William Golding",
+          "otherbooks": ["El señor de las moscas", "El dios de las moscas"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El proceso",
+        "pages": 304,
+        "genre": "Ficción",
+        "cover": "https://m.media-amazon.com/images/I/51Rm9IBu5TL._SY445_SX342_.jpg",
+        "synopsis": "El proceso es una novela de Franz Kafka, publicada póstumamente en 1925.",
+        "year": 1925,
+        "ISBN": "978-8497644180",
+        "author": {
+          "name": "Franz Kafka",
+          "otherbooks": ["La metamorfosis", "El castillo"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "La carroza de plomo candente",
+        "pages": 104,
+        "genre": "Ficción",
+        "cover": "https://m.media-amazon.com/images/I/51K4kwbMbKL.jpg",
+        "synopsis": "La carroza de plomo candente es una novela de Franz Kafka, publicada póstumamente en 1925.",
+        "year": 1925,
+        "ISBN": "978-8497644181",
+        "author": {
+          "name": "Francisco Nieva "
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "La metamorfosis",
+        "pages": 135,
+        "genre": "Ficción",
+        "cover": "https://m.media-amazon.com/images/I/612NA7i9u8L._SY522_.jpg",
+        "synopsis": "La metamorfosis es una novela de Franz Kafka, publicada póstumamente en 1925.",
+        "year": 1925,
+        "ISBN": "978-8497644182",
+        "author": {
+          "name": "Franz Kafka",
+          "otherbooks": ["La metamorfosis", "El castillo"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Matar a un ruiseñor",
+        "pages": 376,
+        "genre": "Ficción",
+        "cover": "https://m.media-amazon.com/images/I/81g3z0qQH4L._SY522_.jpg",
+        "synopsis": "Matar a un ruiseñor es una novela de Harper Lee publicada en 1960.",
+        "year": 1960,
+        "ISBN": "978-8497644183",
+        "author": {
+          "name": "Harper Lee",
+          "otherbooks": ["Ve y pon un centinela", "Ve y pon un centinela"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "L.A. Confidential",
+        "pages": 496,
+        "genre": "Ficción",
+        "cover": "https://m.media-amazon.com/images/I/41PlS+PWShL._SY445_SX342_.jpg",
+        "synopsis": "L.A. Confidential es una novela de James Ellroy publicada en 1990.",
+        "year": 1990,
+        "ISBN": "978-8497644184",
+        "author": {
+          "name": "James Ellroy",
+          "otherbooks": ["Perfidia", "La dalia negra"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "La noche de los tiempos",
+        "pages": 896,
+        "genre": "Ficción",
+        "cover": "https://m.media-amazon.com/images/I/51ijDeo7J2L._SY445_SX342_.jpg",
+        "synopsis": "La noche de los tiempos es una novela de Antonio Muñoz Molina publicada en 2009.",
+        "year": 2009,
+        "ISBN": "978-8497644185",
+        "author": {
+          "name": "Antonio Muñoz Molina",
+          "otherbooks": ["El invierno en Lisboa", "El jinete polaco"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El jinete polaco",
+        "pages": 896,
+        "genre": "Ficción",
+        "cover": "https://m.media-amazon.com/images/I/91gn6SBHSyL._SY522_.jpg",
+        "synopsis": "El jinete polaco es una novela de Antonio Muñoz Molina publicada en 1991.",
+        "year": 1991,
+        "ISBN": "978-8497644186",
+        "author": {
+          "name": "Antonio Muñoz Molina",
+          "otherbooks": ["El invierno en Lisboa", "El jinete polaco"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "https://m.media-amazon.com/images/I/31AWP2wEsDL._SY445_SX342_.jpg",
+        "pages": 896,
+        "genre": "Ficción",
+        "cover": "https://m.media-amazon.com/images/I/31AWP2wEsDL._SY445_SX342_.jpg",
+        "synopsis": "El invierno en Lisboa es una novela de Antonio Muñoz Molina publicada en 1987.",
+        "year": 1987,
+        "ISBN": "978-8497644187",
+        "author": {
+          "name": "Antonio Muñoz Molina",
+          "otherbooks": ["El invierno en Lisboa", "El jinete polaco"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "el sueño de la razon",
+        "pages": 896,
+        "genre": "Ficción",
+        "cover": "https://m.media-amazon.com/images/I/317L+KVTV4L._SY445_SX342_.jpg",
+        "synopsis": "El viejo Jefe Superior de la policía ha logrado su suspensión en venganza por una antigua investigación y María está temporalmente fuera del cuerpo.",
+        "year": 2014,
+        "ISBN": "978-8497644188",
+        "author": {
+          "name": "Berna González Harbour",
+          "otherbooks": ["Obabakoak", "El hijo del acordeonista"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El hijo del acordeonista",
+        "pages": 896,
+        "genre": "Ficción",
+        "cover": "https://m.media-amazon.com/images/I/8102NdKyguL._SY522_.jpg",
+        "synopsis": "El hijo del acordeonista es una novela de Bernardo Atxaga publicada en 2003.",
+        "year": 2003,
+        "ISBN": "978-8497644189",
+        "author": {
+          "name": "Bernardo Atxaga",
+          "otherbooks": ["Obabakoak", "El hijo del acordeonista"]
+        }
+      }
+    }
+  ]
+}
