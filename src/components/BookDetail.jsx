@@ -34,8 +34,8 @@ export default function BookDetail() {
               style={{ borderRadius: "2px" }}
             />
             <a className="stretched-link" />
-            <div className="overlay d-none text-secondary p-4 ms-4 me-4">
-              <h2>{title}</h2>
+            <div className="overlay d-none text-white p-4 ms-4 me-4">
+              <h4 className="display-6">{title}</h4>
               <p className="mb-1">ISBN: {ISBN}</p>
               <p className="mb-1">Author: {author?.name}</p>
               <p className="mb-1">Genre: {genre}</p>

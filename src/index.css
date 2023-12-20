@@ -382,7 +382,7 @@ a:hover + .overlay {
   top: 1.5rem;
   background-color: rgba(0, 0, 0, 1);
   backdrop-filter: blur(3px);
-  font-weight: normal;
+  font-weight: lighter;
   overflow: hidden;
   text-overflow: ellipsis;
 }

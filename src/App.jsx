@@ -19,7 +19,7 @@ function App() {
   return (
     <Container fluid className="ps-0">
       <Row>
-        <Col xs={8} className="p-4 pt-0 grid-container">
+        <Col xs={12} md={8} className="p-4 pt-0 grid-container">
           <Suspense
             fallback={
               <div className="center spinner">
@@ -31,7 +31,8 @@ function App() {
           </Suspense>
         </Col>
         <Col
-          xs={4}
+          xs={12}
+          md={4}
           className="details-container d-flex justify-content-start flex-column ps-0 pt-5"
         >
           <Row className="mt-5">{book.title && <BookDetail />}</Row>
