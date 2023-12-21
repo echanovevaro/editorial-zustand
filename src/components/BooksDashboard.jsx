@@ -194,7 +194,7 @@ export default function BooksDashboard() {
         <div className="relative flex items-center d-flex d-lg-none">
           <FontAwesomeIcon
             icon={faChevronLeft}
-            className="opacity-50 cursor-pointer hover:opacity-100 me-3"
+            className="text-warning cursor-pointer ms-1 opacity-50 hover:opacity-100"
             onClick={slideLeft}
           />
           <div
@@ -202,19 +202,21 @@ export default function BooksDashboard() {
             className="w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth"
           >
             {filteredBooks?.map((b) => (
-              <div key={b.ISBN} className="border border-warning inline-block">
-                <img
-                  src={b.cover}
-                  alt={b.title}
-                  onClick={() => handleClick(b.ISBN)}
-                  className="grayscale w-[100px] h-[150px] object-cover inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300 hover:grayscale-0"
-                />
+              <div key={b.ISBN} className=" inline-block p-2">
+                <div className="border border-warning">
+                  <img
+                    src={b.cover}
+                    alt={b.title}
+                    onClick={() => handleClick(b.ISBN)}
+                    className="grayscale w-[100px] h-[150px] object-cover inline-block cursor-pointer hover:scale-105 ease-in-out duration-300 hover:grayscale-0"
+                  />
+                </div>
               </div>
             ))}
           </div>
           <FontAwesomeIcon
             icon={faChevronRight}
-            className="opacity-50 cursor-pointer hover:opacity-100 ms-3"
+            className="text-warning cursor-pointer ms-1 opacity-50 hover:opacity-100"
             onClick={slideRight}
           />
         </div>
