@@ -5,7 +5,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Searcher from "./Header";
 import { Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faList } from "@fortawesome/free-solid-svg-icons";
+import {
+  faChevronLeft,
+  faChevronRight,
+  faList,
+} from "@fortawesome/free-solid-svg-icons";
 import { useEffect, useLayoutEffect, useState } from "react";
 import { BOOKS, DEFAULT_GENRE, MAX_PAGES } from "../constants/globals";
 import { removeAccents } from "../utils/utilFunctions";
@@ -28,6 +32,16 @@ export default function BooksDashboard() {
     Math.ceil(filteredBooks.length / itemsPerPage)
   );
   const [booksPerPage, setBooksPerPage] = useState([]);
+
+  const slideLeft = () => {
+    let slider = document.getElementById("slider");
+    slider.scrollLeft -= 500;
+  };
+
+  const slideRight = () => {
+    let slider = document.getElementById("slider");
+    slider.scrollLeft += 500;
+  };
 
   const handleGenreSelect = (e) => {
     try {
@@ -139,7 +153,7 @@ export default function BooksDashboard() {
             handleSearchInputChange,
           }}
         />
-        <ul className="container-dash" id="grid">
+        <ul className="container-dash d-none d-lg-grid" id="grid">
           {!filteredBooks?.length ? (
             <NotFound />
           ) : (
@@ -177,7 +191,34 @@ export default function BooksDashboard() {
             ))
           )}
         </ul>
-        <Pagination className="mt-4">
+        <div className="relative flex items-center d-flex d-lg-none">
+          <FontAwesomeIcon
+            icon={faChevronLeft}
+            className="opacity-50 cursor-pointer hover:opacity-100 me-3"
+            onClick={slideLeft}
+          />
+          <div
+            id="slider"
+            className="w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth"
+          >
+            {filteredBooks?.map((b) => (
+              <div key={b.ISBN} className="border border-warning inline-block">
+                <img
+                  src={b.cover}
+                  alt={b.title}
+                  onClick={() => handleClick(b.ISBN)}
+                  className="grayscale w-[100px] h-[150px] object-cover inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300 hover:grayscale-0"
+                />
+              </div>
+            ))}
+          </div>
+          <FontAwesomeIcon
+            icon={faChevronRight}
+            className="opacity-50 cursor-pointer hover:opacity-100 ms-3"
+            onClick={slideRight}
+          />
+        </div>
+        <Pagination className="d-none d-lg-flex mt-4">
           {[...Array(totalPages)].map((_, i) => (
             <Pagination.Item
               key={i}
