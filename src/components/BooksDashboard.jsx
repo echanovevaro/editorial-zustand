@@ -14,13 +14,15 @@ import { useEffect, useLayoutEffect, useState } from "react";
 import { BOOKS, DEFAULT_GENRE, MAX_PAGES } from "../constants/globals";
 import { removeAccents } from "../utils/utilFunctions";
 import Pagination from "react-bootstrap/Pagination";
+import { list } from "postcss";
 
 const ITEMS_PER_PAGE = 16;
 
 export default function BooksDashboard() {
   // const [itemsPerRow, setItemsPerRow] = useState(0)
-  const { setBookById } = useUserBooks((state) => ({
+  const { setBookById, lists } = useUserBooks((state) => ({
     setBookById: state.setBookById,
+    lists: state.lists,
   }));
   const [genre, setGenre] = useState(DEFAULT_GENRE);
   const [pages, setPages] = useState(MAX_PAGES);
@@ -96,6 +98,7 @@ export default function BooksDashboard() {
     const filterBooks = () => {
       const filtered = BOOKS.filter((b) => {
         if (
+          !lists.some((l) => l.books.some((book) => book.ISBN === b.ISBN)) &&
           (genre === DEFAULT_GENRE ||
             b.genre.toLowerCase().includes(genre.toLowerCase())) &&
           b.pages <= pages &&
@@ -113,7 +116,7 @@ export default function BooksDashboard() {
       setBooksPerPage(filtered.slice(0, itemsPerPage));
     };
     filterBooks();
-  }, [genre, pages, searchInput, itemsPerPage]);
+  }, [genre, pages, searchInput, itemsPerPage, lists]);
 
   useEffect(() => {
     setBooksPerPage(
@@ -127,7 +130,7 @@ export default function BooksDashboard() {
   return (
     <main className="d-flex justify-content-center align-items-center text-white mt-5">
       <Col xs={10} className="mt-5 pt-2">
-        <div className="d-flex justify-content-between align-items-center mt-5">
+        <div className="d-flex justify-content-between align-items-end mt-5">
           <div className="mb-3">
             <h1 className="display-4 text-warning">Books AR</h1>
           </div>
@@ -140,9 +143,9 @@ export default function BooksDashboard() {
             >
               <FontAwesomeIcon icon={faList} />
             </h1>
-            <span className="d-block d-lg-none text-warning">
-              Create your book lists
-            </span>
+            <h4 className="d-block d-lg-none text-warning font-light">
+              Your book's lists
+            </h4>
           </div>
         </div>
         <Searcher
