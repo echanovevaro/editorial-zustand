@@ -58,6 +58,7 @@ export default function BookDetail() {
                 size="lg"
                 onClick={() => {
                   toggleBook(list.id)
+                  window.scrollTo(0, window.document.body.scrollHeight)
                 }}
                 variant={listId == list.id ? "warning" : "outline-warning"}
               >

@@ -20,7 +20,7 @@ function App() {
       <Modal
         size="lg"
         centered
-        show={!!book.title}
+        show={!!book?.title}
         onHide={() => clearBook()}
       >
         <Modal.Header closeButton></Modal.Header>

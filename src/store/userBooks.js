@@ -1,7 +1,6 @@
 import { createWithEqualityFn } from "zustand/traditional"
 import { DETAILS_OF_LISTS, BOOKS_BY_ISBN } from "../constants/globals"
 import { shallow } from "zustand/shallow"
-import { persist } from "zustand/middleware"
 
 export const useUserBooks = createWithEqualityFn(
   persist(
@@ -52,8 +51,6 @@ export const useUserBooks = createWithEqualityFn(
           })
 
           set({ lists: newLists, book: {} })
-
-          window.scrollTo({ top: 0, behavior: "smooth" })
         } else {
           // If the book is in other list, remove from it
           const listsUpdated = lists.map((list) => {
@@ -73,8 +70,6 @@ export const useUserBooks = createWithEqualityFn(
           })
 
           set({ lists: listsUpdated, book: {} })
-
-          window.scrollTo(0, window.document.body.scrollHeight)
         }
       },
     }),
