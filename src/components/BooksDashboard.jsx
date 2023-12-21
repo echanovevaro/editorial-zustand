@@ -126,6 +126,9 @@ export default function BooksDashboard() {
             >
               <FontAwesomeIcon icon={faList} />
             </h1>
+            <span className="d-block d-lg-none text-warning">
+              Create your book lists
+            </span>
           </div>
         </div>
         <Searcher
