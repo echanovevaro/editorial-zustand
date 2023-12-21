@@ -119,7 +119,7 @@ export default function BooksDashboard() {
           </div>
           <div className="mb-3">
             <h1
-              className="display-4 text-warning pointer"
+              className="display-4 text-warning pointer d-none d-lg-block"
               onClick={() =>
                 window.scrollTo(0, window.document.body.scrollHeight)
               }

@@ -13,11 +13,11 @@ export default function Searcher({ filters, handlers }) {
           <ul>
             <li id="search" className="search-books">
               <div className="searcher mb-0 pb-0">
-                <input
+                <Form.Control
                   type="search"
                   required
                   minLength="4"
-                  placeholder="Search..."
+                  placeholder="Search title..."
                   onChange={(e) => handleSearchInputChange(e)}
                   value={searchInput}
                   name="search"
@@ -47,16 +47,15 @@ export default function Searcher({ filters, handlers }) {
             </li>
             <li>
               <div className="range-slider">
-                <input
+                <Form.Range
                   className="input-range"
-                  type="range"
                   onChange={(e) => handlePageChange(e)}
                   value={pages}
                   min="0"
                   max={MAX_PAGES}
                   step="1"
                 />
-                <span className="range-value">PAGES {pages}</span>
+                <span className="range-value">Pages {pages}</span>
               </div>
             </li>
           </ul>

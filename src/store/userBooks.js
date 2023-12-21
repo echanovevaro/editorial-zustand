@@ -1,6 +1,7 @@
-import { createWithEqualityFn } from "zustand/traditional"
-import { DETAILS_OF_LISTS, BOOKS_BY_ISBN } from "../constants/globals"
-import { shallow } from "zustand/shallow"
+import { createWithEqualityFn } from "zustand/traditional";
+import { DETAILS_OF_LISTS, BOOKS_BY_ISBN } from "../constants/globals";
+import { shallow } from "zustand/shallow";
+import { persist } from "zustand/middleware";
 
 export const useUserBooks = createWithEqualityFn(
   persist(
@@ -14,29 +15,29 @@ export const useUserBooks = createWithEqualityFn(
       })),
 
       clearBook: () => {
-        set({ book: {} })
-        window.scrollTo({ top: 0, behavior: "smooth" })
+        set({ book: {} });
+        window.scrollTo({ top: 0, behavior: "smooth" });
       },
 
       listIdFromBookId: (bookId) => {
-        const { lists } = get()
+        const { lists } = get();
         return lists.find((list) => list.books.some((b) => b.ISBN == bookId))
-          ?.id
+          ?.id;
       },
 
       setBookById: (bookId) => {
-        const newBook = BOOKS_BY_ISBN[bookId]
-        set({ book: newBook })
+        const newBook = BOOKS_BY_ISBN[bookId];
+        set({ book: newBook });
       },
 
       toggleBook: (listId) => {
-        const { book, lists } = get()
-        const listTarget = lists.find((list) => list.id == listId)
+        const { book, lists } = get();
+        const listTarget = lists.find((list) => list.id == listId);
         const listOrigin = lists.find((list) =>
           list.books.some((b) => b.ISBN === book.ISBN)
-        )
+        );
 
-        if (!listTarget) return
+        if (!listTarget) return;
 
         //Remove book
         if (listOrigin?.id == listId) {
@@ -45,12 +46,12 @@ export const useUserBooks = createWithEqualityFn(
               return {
                 ...list,
                 books: list.books.filter((b) => b.ISBN != book.ISBN),
-              }
+              };
             }
-            return { ...list }
-          })
+            return { ...list };
+          });
 
-          set({ lists: newLists, book: {} })
+          set({ lists: newLists, book: {} });
         } else {
           // If the book is in other list, remove from it
           const listsUpdated = lists.map((list) => {
@@ -58,7 +59,7 @@ export const useUserBooks = createWithEqualityFn(
               return {
                 ...list,
                 books: list.books.filter((b) => b.ISBN !== book.ISBN),
-              }
+              };
             }
             // Take it to the new list
             return list.id == listId
@@ -66,10 +67,10 @@ export const useUserBooks = createWithEqualityFn(
                   ...list,
                   books: [...list.books, book],
                 }
-              : list
-          })
+              : list;
+          });
 
-          set({ lists: listsUpdated, book: {} })
+          set({ lists: listsUpdated, book: {} });
         }
       },
     }),
@@ -78,4 +79,4 @@ export const useUserBooks = createWithEqualityFn(
     }
   ),
   shallow
-)
+);
