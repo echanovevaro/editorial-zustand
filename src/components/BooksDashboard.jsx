@@ -197,7 +197,7 @@ export default function BooksDashboard() {
         <div className="relative flex items-center d-flex d-lg-none">
           <FontAwesomeIcon
             icon={faChevronLeft}
-            className="text-warning cursor-pointer ms-1 opacity-50 hover:opacity-100"
+            className="text-warning cursor-pointer ms-1 opacity-50 hover:opacity-100 arrow-left"
             onClick={slideLeft}
           />
           <div
@@ -219,7 +219,7 @@ export default function BooksDashboard() {
           </div>
           <FontAwesomeIcon
             icon={faChevronRight}
-            className="text-warning cursor-pointer ms-1 opacity-50 hover:opacity-100"
+            className="arrow-right text-warning cursor-pointer ms-1 opacity-50 hover:opacity-100"
             onClick={slideRight}
           />
         </div>

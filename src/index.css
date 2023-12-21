@@ -363,3 +363,13 @@ ul {
 .searcher input {
   font-size: 1.2rem !important;
 }
+
+.arrow-left {
+  position: absolute;
+  left: -30px;
+}
+
+.arrow-right {
+  position: absolute;
+  right: -30px;
+}
