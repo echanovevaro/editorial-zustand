@@ -33,7 +33,7 @@ function App() {
         <Row>
           <Col
             xs={12}
-            className="p-4 grid-container"
+            className="p-5 pt-0 grid-container"
           >
             <BooksDashboard book={book} />
           </Col>
@@ -48,7 +48,7 @@ function App() {
         <Row className="b-0">
           <Col
             xs={12}
-            className="p-4 lists-container"
+            className="p-5 lists-container"
           >
             <BooksList />
           </Col>

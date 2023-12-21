@@ -11,7 +11,7 @@ export const BOOKS_BY_ISBN = BOOKS.reduce((acc, book) => {
 
 export const GENRES = [...new Set(BOOKS.map((b) => b.genre))];
 
-export const DEFAULT_GENRE = "All books";
+export const DEFAULT_GENRE = "Filter by genre";
 
 export const MAX_PAGES = Math.max(...BOOKS.map((b) => b.pages));
 

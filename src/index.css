@@ -3,7 +3,7 @@
   --color-black: #000;
   --font-color-white: #fff;
   --font-color-black: #000;
-
+  --bs-warning: #ffa407 !important;
   --font: "Roboto Mono", monospace;
 }
 
@@ -193,7 +193,7 @@ img {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #666;
+  background: var(--bs-warning);
   cursor: pointer;
   -webkit-transition: background 0.15s ease-in-out;
   transition: background 0.15s ease-in-out;
@@ -279,20 +279,6 @@ ul {
   font-weight: 400;
 }
 
-a:hover + .overlay {
-  display: block !important;
-  position: absolute;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
-  top: 1.5rem;
-  background-color: rgba(0, 0, 0, 1);
-  backdrop-filter: blur(3px);
-  font-weight: lighter;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 .details-container {
   background-image: url("./assets/library.jpeg");
   background-repeat: no-repeat;
@@ -318,7 +304,6 @@ a:hover + .overlay {
 
 .searcher input::-webkit-textfield-decoration-container {
   color: white;
-  font-family: var(--font) !important;
   font-size: 1.3rem;
   font-weight: 300;
 }
@@ -339,6 +324,9 @@ a:hover + .overlay {
   border: 1px solid var(--bs-warning) !important;
   border-radius: 2px !important;
   background-color: transparent !important;
+  font-size: 1.3rem !important;
+  padding-left: 1.2rem !important;
+  padding-right: 1.2rem !important;
 }
 
 .active > .page-link {
@@ -358,4 +346,16 @@ a:hover + .overlay {
 
 .not-found-container {
   min-height: fit-content;
+}
+
+.form-select {
+  font-size: 1.2rem !important;
+}
+
+.range-value {
+  font-size: 1.2rem !important;
+}
+
+.searcher input {
+  font-size: 1.2rem !important;
 }
