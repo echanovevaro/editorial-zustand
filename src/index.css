@@ -453,3 +453,9 @@ ul {
 input {
   touch-action: none;
 }
+
+@media (max-width: 768px) {
+  .p-5 {
+    padding: 1rem !important;
+  }
+}
