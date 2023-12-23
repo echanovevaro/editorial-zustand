@@ -449,3 +449,7 @@ ul {
 .row {
   margin-right: 0 !important;
 }
+
+input {
+  touch-action: none;
+}
