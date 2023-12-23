@@ -7,8 +7,35 @@
   --color-black: #000;
   --font-color-white: #fff;
   --font-color-black: #000;
-  --bs-warning: #ffb507 !important;
+  --bs-warning: #fdb73e !important;
   --font: "Roboto Mono", monospace;
+}
+
+.text-warning {
+  color: var(--bs-warning) !important;
+}
+
+.btn-warning {
+  --bs-btn-color: #6c757d !important;
+  --bs-btn-bg: #fdb73e !important;
+  --bs-btn-border-color: #fdb73e !important;
+  --bs-btn-hover-color: #6c757d !important;
+  --bs-btn-hover-bg: transparent !important;
+  --bs-btn-hover-border-color: #6c757d !important;
+  --bs-btn-active-color: #6c757d !important;
+  --bs-btn-active-bg: transparent !important;
+  --bs-btn-active-border-color: #6c757d !important;
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: #6c757d !important;
+  --bs-btn-border-color: #6c757d !important;
+  --bs-btn-hover-color: #6c757d !important;
+  --bs-btn-hover-bg: #fdb73e !important;
+  --bs-btn-hover-border-color: #fdb73e !important;
+  --bs-btn-active-color: #6c757d !important;
+  --bs-btn-active-bg: #fdb73e !important;
+  --bs-btn-active-border-color: #fdb73e !important;
 }
 
 html {
@@ -95,42 +122,50 @@ hr {
   width: 100%;
 }
 .searcher input {
-  width: 100%;
-  padding: 0;
   cursor: pointer;
-  font-family: var(--font);
   background-color: transparent;
   border: none;
   outline: none !important ;
-  font-weight: 200;
   color: white;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 .searcher input::placeholder {
   color: rgba(255, 255, 255, 0.909);
   font-family: var(--font);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 300;
 }
-.searcher input::-webkit-textfield-decoration-container {
+/* .searcher input::-webkit-textfield-decoration-container {
   color: rgba(255, 255, 255, 0.909);
   font-family: var(--font) !important;
   font-size: 1.3rem;
   font-weight: 300;
-}
-/* .searcher input[type='search' i]::-webkit-search-cancel-button {
-	-webkit-appearance: none;
-	height: 13px;
-	width: 13px;
-	background-image: url(/src/assets/delete-button-svgrepo-com.svg);
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: right;
-	padding: 1px;
-	outline:none;
+} */
+
+/* .searcher .form-control:focus {
+  color: rgba(255, 255, 255, 0.909);
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  box-shadow: none;
 } */
 
 input:-webkit-autofill {
-  background: #fff !important;
+  background: transparent !important;
+}
+
+.input-group-text {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 important;
+}
+
+.form-control:focus {
+  color: white !important;
+  background-color: transparent !important;
+  border-color: tramsparent !important;
+  box-shadow: none !important;
 }
 
 .search-books {
@@ -166,9 +201,8 @@ img {
 }
 
 .selected-book img:hover {
-  scale: 1.2;
+  /* scale: 1.2; */
   filter: brightness(1.15);
-  z-index: 3;
   position: relative;
 }
 
@@ -308,8 +342,11 @@ ul {
 
 .searcher input::-webkit-textfield-decoration-container {
   color: white;
-  font-size: 1.3rem;
   font-weight: 300;
+}
+
+.form-range::-webkit-slider-thumb {
+  background-color: var(--bs-warning) !important;
 }
 .searcher input[type="search" i]::-webkit-search-cancel-button {
   -webkit-appearance: none;
@@ -333,7 +370,7 @@ ul {
   padding-right: 1.2rem !important;
 }
 
-.active > .page-link {
+.page-link.active {
   background-color: var(--bs-warning) !important;
   border: 1px solid var(--bs-warning) !important;
   border-radius: 2px !important;
@@ -372,4 +409,43 @@ ul {
 .arrow-right {
   position: absolute;
   right: -30px;
+}
+
+.customModal {
+  margin: 0;
+  padding: 2rem;
+  position: fixed;
+  top: 10vh;
+  left: calc(50% - 30%);
+  width: 60%;
+  max-height: 80vh;
+  border: none;
+  border-radius: 6px;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.backdrop {
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.customModal img {
+  object-fit: cover;
+  width: 330px;
+  aspect-ratio: 1/1.7;
+}
+
+.header-form ul li {
+  padding: 0 !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.row {
+  margin-right: 0 !important;
 }

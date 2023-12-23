@@ -5,6 +5,7 @@ import { faArrowUp } from "@fortawesome/free-solid-svg-icons"
 import { LazyLoadImage } from "react-lazy-load-image-component"
 import { Col } from "react-bootstrap"
 import { useEffect } from "react"
+import { motion } from "framer-motion"
 
 let listsLengths
 
@@ -15,7 +16,7 @@ useUserBooks.subscribe((state, prevState) => {
   }))
 })
 
-export default function BooksList() {
+export default function BooksList({ onShowDetails, visibleDashboard }) {
   const { setBookById, lists } = useUserBooks((state) => ({
     setBookById: state.setBookById,
     lists: state.lists,
@@ -31,7 +32,7 @@ export default function BooksList() {
     <div className="d-flex justify-content-center align-items-center">
       <Col xs={10}>
         <ul className="mb-5">
-          <h1 className="display-6 mt-2 pt-5 text-white">YOUR LISTS</h1>
+          {/* <h1 className="display-6 mt-2 pt-5 text-white">YOUR LISTS</h1> */}
           {lists &&
             lists?.map(
               (list) =>
@@ -39,23 +40,32 @@ export default function BooksList() {
                   <li key={list.id}>
                     <div className="d-flex justify-content-start align-items-center g-1 mb-0 mt-3">
                       <h6 className="display-6">{list.title}&nbsp;</h6>
-
-                      <FontAwesomeIcon
-                        className="pointer"
-                        icon={faArrowUp}
-                        variant="link"
+                      <motion.h6
+                        whileHover={{ scale: 1.5 }}
+                        transition={{ type: "spring", stiffness: 500 }}
+                        className={`pointer ${
+                          visibleDashboard ? "d-none" : "d-inline"
+                        }`}
                         onClick={() =>
                           window.scrollTo({ top: 0, behavior: "smooth" })
                         }
-                      />
+                      >
+                        <FontAwesomeIcon
+                          icon={faArrowUp}
+                          variant="link"
+                        />
+                      </motion.h6>
                     </div>
                     <ul className="container-dash">
                       {list.books?.map((b) => (
-                        <li
+                        <motion.li
+                          whileHover={{ scale: 1.2 }}
+                          transition={{ type: "spring", stiffness: 200 }}
                           key={b.ISBN}
                           className="selected-book border border-warning"
                           onClick={() => {
                             setBookById(b.ISBN)
+                            onShowDetails()
                           }}
                         >
                           <LazyLoadImage
@@ -64,7 +74,7 @@ export default function BooksList() {
                             loading="lazy"
                             // effect='blur'
                           />
-                        </li>
+                        </motion.li>
                       ))}
                     </ul>
                   </li>

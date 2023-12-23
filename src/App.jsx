@@ -7,25 +7,57 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
-import Modal from "react-bootstrap/Modal"
+import Modal from "./UI/Modal"
+import { AnimatePresence } from "framer-motion"
+import { useState } from "react"
+import { useRef } from "react"
+import { useEffect } from "react"
 
 function App() {
-  const { book, clearBook } = useUserBooks((state) => ({
-    book: state.book,
-    clearBook: state.clearBook,
+  const refDashboard = useRef(null)
+  const refLists = useRef(null)
+  const [visibleLists, setVisibleLists] = useState(false)
+  const [visibleDashboard, setVisibleDashboard] = useState(false)
+
+  const { setShowDetails, showDetails } = useUserBooks((state) => ({
+    setShowDetails: state.setShowDetails,
+    showDetails: state.showDetails,
   }))
+
+  const handleShowDetail = () => {
+    setShowDetails(true)
+  }
+
+  useEffect(() => {
+    const observerDashboard = new IntersectionObserver(
+      (entries) => {
+        const [entry] = entries
+        console.log(entry)
+        setVisibleDashboard(entry.isIntersecting)
+      },
+      { root: null, rootMargin: "0px", threshold: 0.9 }
+    )
+    if (refDashboard.current) observerDashboard.observe(refDashboard.current)
+
+    const observerLists = new IntersectionObserver(
+      (entries) => {
+        const [entry] = entries
+        setVisibleLists(entry.isIntersecting)
+      },
+      { root: null, rootMargin: "0px", threshold: 0.9 }
+    )
+    if (refLists.current) observerLists.observe(refLists.current)
+  }, [visibleLists, visibleDashboard])
 
   return (
     <>
-      <Modal
-        size="lg"
-        centered
-        show={!!book?.title}
-        onHide={() => clearBook()}
-      >
-        <Modal.Header closeButton></Modal.Header>
-        <BookDetail />
-      </Modal>
+      <AnimatePresence>
+        {showDetails && (
+          <Modal onClose={() => setShowDetails(false)}>
+            <BookDetail />
+          </Modal>
+        )}
+      </AnimatePresence>
       <Container
         fluid
         className="p-0 m-0"
@@ -34,8 +66,12 @@ function App() {
           <Col
             xs={12}
             className="p-5 pt-0 grid-container"
+            ref={refDashboard}
           >
-            <BooksDashboard book={book} />
+            <BooksDashboard
+              onShowDetails={handleShowDetail}
+              visibleLists={visibleLists}
+            />
           </Col>
           {/* <Col
           xs={12}
@@ -49,8 +85,12 @@ function App() {
           <Col
             xs={12}
             className="p-5 lists-container"
+            ref={refLists}
           >
-            <BooksList />
+            <BooksList
+              onShowDetails={handleShowDetail}
+              visibleDashboard={visibleDashboard}
+            />
           </Col>
         </Row>
       </Container>
