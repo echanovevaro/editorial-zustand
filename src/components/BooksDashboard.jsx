@@ -139,7 +139,7 @@ export default function BooksDashboard({ onShowDetails, visibleLists }) {
         xs={10}
         className="mt-5 pt-2"
       >
-        <div className="d-flex justify-content-between align-items-end mt-5">
+        <div className="dash-content d-flex justify-content-between align-items-end mt-5">
           <div className="mb-3">
             <h1 className="display-4 text-warning">Books AR</h1>
           </div>

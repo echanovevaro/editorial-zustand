@@ -21,7 +21,7 @@ export default function BookDetail() {
   const listId = listIdFromBookId(book.ISBN)
   return (
     <>
-      <div className="d-flex justify-content-center align-items-start">
+      <div className="details-content d-flex justify-content-center align-items-start">
         <div>
           <LazyLoadImage
             src={cover}
