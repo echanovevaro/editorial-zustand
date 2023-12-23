@@ -456,6 +456,6 @@ input {
 
 @media (max-width: 768px) {
   .p-5 {
-    padding: 1rem !important;
+    padding: 0 !important;
   }
 }
