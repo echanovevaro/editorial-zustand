@@ -20,7 +20,12 @@ export default function BookDetail() {
 
   const listId = listIdFromBookId(book.ISBN)
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: 30 }}
+      transition={{ delay: 0.3 }}
+    >
       <div className="details-content d-flex justify-content-center align-items-start">
         <div>
           <LazyLoadImage
@@ -71,6 +76,6 @@ export default function BookDetail() {
           </div>
         </div>
       </div>
-    </>
+    </motion.div>
   )
 }
