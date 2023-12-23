@@ -2,6 +2,9 @@
 import { useUserBooks } from "../store/userBooks"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons"
+import { faInstagram } from "@fortawesome/free-brands-svg-icons"
+import { faXTwitter } from "@fortawesome/free-brands-svg-icons"
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { LazyLoadImage } from "react-lazy-load-image-component"
 import { Col } from "react-bootstrap"
 import { useEffect } from "react"
@@ -59,7 +62,7 @@ export default function BooksList({ onShowDetails, visibleDashboard }) {
                     <ul className="container-dash">
                       {list.books?.map((b) => (
                         <motion.li
-                          whileHover={{ scale: 1.2 }}
+                          whileHover={{ scale: 1.2, zIndex: 10 }}
                           transition={{ type: "spring", stiffness: 200 }}
                           key={b.ISBN}
                           className="selected-book border border-warning"
@@ -81,6 +84,19 @@ export default function BooksList({ onShowDetails, visibleDashboard }) {
                 )
             )}
         </ul>
+        <div className="text-dark display-6 pt-5">
+          <span>
+            <FontAwesomeIcon icon={faInstagram} />
+          </span>
+          {` `}
+          <span>
+            <FontAwesomeIcon icon={faXTwitter} />
+          </span>
+          {` `}
+          <span>
+            <FontAwesomeIcon icon={faLinkedin} />
+          </span>
+        </div>
       </Col>
     </div>
   )
