@@ -453,12 +453,3 @@ ul {
 input {
   touch-action: none;
 }
-
-@media (max-width: 768px) {
-  .p-5 {
-    padding: 0 !important;
-  }
-  .container-dash {
-    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
-  }
-}
