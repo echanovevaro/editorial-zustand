@@ -997,7 +997,7 @@
           "otherbooks": ["La isla del tesoro", "Secuestrado"]
         }
       }
-    },
+    },{
       "book": {
         "title": "Mujercitas",
         "pages": 416,
@@ -1155,7 +1155,8 @@
         "cover": "https://m.media-amazon.com/images/I/610rduRlObL._SL1500_.jpg",
         "synopsis": "La obra de teatro que presenta la opresión y represión dentro de una familia española dirigida por la severa Bernarda Alba después de la muerte de su esposo.",
         "year": 1945,
-        {
+        "ISBN": "978-84339201777",
+        "author": {
           "name": "Federico García Lorca",
           "otherbooks": ["Bodas de sangre", "Yerma"]
         }
