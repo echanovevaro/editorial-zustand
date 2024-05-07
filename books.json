@@ -907,6 +907,289 @@
           "otherbooks": ["Obabakoak", "El hijo del acordeonista"]
         }
       }
+    },
+    "book": {
+        "title": "La naranja mecánica",
+        "pages": 176,
+        "genre": "Ciencia ficción",
+        "cover": "https://m.media-amazon.com/images/I/41iTNEiJi7L._SY445_SX342_.jpg",
+        "synopsis": "La naranja mecánica cuenta la historia del nadsat-adolescente Alex y sus tres drugos-amigos en su intento de superar la sociedad y el gobierno mediante el ultraviolento...",
+        "year": 1962,
+        "ISBN": "978-9871719367",
+        "author": {
+          "name": "Anthony Burgess",
+          "otherbooks": ["Enderby", "1985"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El extranjero",
+        "pages": 123,
+        "genre": "Novela",
+        "cover": "https://m.media-amazon.com/images/I/51gEQ5A6G9S._SY445_SX342_.jpg",
+        "synopsis": "La historia de un hombre que mata a otro en la playa, solo para encontrar su propia indiferencia ante el mundo y su desinterés en el juicio de la sociedad.",
+        "year": 1942,
+        "ISBN": "978-0679720201",
+        "author": {
+          "name": "Albert Camus",
+          "otherbooks": ["La Peste", "El mito de Sísifo"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El retrato de Dorian Gray",
+        "pages": 278,
+        "genre": "Ficción gótica",
+        "cover": "https://m.media-amazon.com/images/I/91KVu+3L8dL._SL1500_.jpg",
+        "synopsis": "La historia de un hombre joven cuya belleza queda inmortalizada en un retrato pintado por un artista amigo, mientras su propia vida y moralidad se desmoronan.",
+        "year": 1890,
+        "ISBN": "978-1726286767",
+        "author": {
+          "name": "Oscar Wilde",
+          "otherbooks": ["La importancia de llamarse Ernesto", "Salomé"]
+        }
+      }
+    },
+     {
+      "book": {
+        "title": "El túnel",
+        "pages": 160,
+        "genre": "Novela psicológica",
+        "cover": "https://m.media-amazon.com/images/I/316fE0STkAL._SY445_SX342_.jpg",
+        "synopsis": "La historia de un pintor obsesionado con una mujer, María, a la que idealiza y persigue hasta la destrucción de ambos.",
+        "year": 1948,
+        "ISBN": "978-8437609337",
+        "author": {
+          "name": "Ernesto Sabato",
+          "otherbooks": ["Sobre héroes y tumbas", "Abaddón el exterminador"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Rayuela",
+        "pages": 576,
+        "genre": "Novela experimental",
+        "cover": "https://m.media-amazon.com/images/I/416wKgcTyuL.jpg",
+        "synopsis": "Una exploración desestructurada y no lineal de la vida de un intelectual argentino, Horacio Oliveira, y su relación con la mujer que ama, La Maga.",
+        "year": 1963,
+        "ISBN": "978-8432203014",
+        "author": {
+          "name": "Julio Cortázar",
+          "otherbooks": ["Casa tomada", "Bestiario"]
+        }
+      }
+    },
+      {
+      "book": {
+        "title": "El extraño caso del Dr. Jekyll y Mr. Hyde",
+        "pages": 80,
+        "genre": "Terror gótico",
+        "cover": "https://m.media-amazon.com/images/I/91rQ+xb9NyL._SY522_.jpg",
+        "synopsis": "La historia del abogado londinense Gabriel John Utterson y su investigación sobre los extraños acontecimientos que rodean al Dr. Jekyll y su misterioso asociado, Mr. Hyde.",
+        "year": 1886,
+        "ISBN": "978-8491050551",
+        "author": {
+          "name": "Robert Louis Stevenson",
+          "otherbooks": ["La isla del tesoro", "Secuestrado"]
+        }
+      }
+    },
+      "book": {
+        "title": "Mujercitas",
+        "pages": 416,
+        "genre": "Novela",
+        "cover": "https://m.media-amazon.com/images/I/51qb98-2k2L._SY445_SX342_.jpg",
+        "synopsis": "La historia de las cuatro hermanas March mientras crecen y encuentran su camino en la vida durante y después de la Guerra Civil estadounidense.",
+        "year": 1868,
+        "ISBN": "978-1503214666",
+        "author": {
+          "name": "Louisa May Alcott",
+          "otherbooks": ["Hombres buenos", "Un susurro en la oscuridad"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Cumbres borrascosas",
+        "pages": 384,
+        "genre": "Novela romántica",
+        "cover": "https://m.media-amazon.com/images/I/51LVpgySevL._SY445_SX342_.jpg",
+        "synopsis": "La tumultuosa historia de amor entre Catherine Earnshaw y Heathcliff, ambientada en los páramos de Yorkshire en el siglo XIX.",
+        "year": 1847,
+        "ISBN": "978-8491051077",
+        "author": {
+          "name": "Emily Brontë",
+          "otherbooks": ["Poems by Currer, Ellis, and Acton Bell"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El amor en los tiempos del cólera",
+        "pages": 368,
+        "genre": "Novela",
+        "cover": "https://m.media-amazon.com/images/I/41Ye+pPA+VL._SY445_SX342_.jpg",
+        "synopsis": "La historia de amor entre Fermina Daza y Florentino Ariza, que perdura a lo largo de décadas en medio de la epidemia de cólera en el siglo XIX en América Latina.",
+        "year": 1985,
+        "ISBN": "978-0307387264",
+        "author": {
+          "name": "Gabriel García Márquez",
+          "otherbooks": ["Cien años de soledad", "Crónica de una muerte anunciada"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "La sombra del viento",
+        "pages": 560,
+        "genre": "Novela",
+        "cover": "https://m.media-amazon.com/images/I/41rG+82SLrL._SY445_SX342_.jpg",
+        "synopsis": "La historia de Daniel Sempere y su obsesión por encontrar los secretos detrás de un misterioso autor, llevándolo a través de la Barcelona de la posguerra.",
+        "year": 2001,
+        "ISBN": "978-0307387103",
+        "author": {
+          "name": "Carlos Ruiz Zafón",
+          "otherbooks": ["El juego del ángel", "El prisionero del cielo"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "La ciudad y los perros",
+        "pages": 464,
+        "genre": "Novela",
+        "cover": "https://m.media-amazon.com/images/I/41Yn8togFFL._SY445_SX342_.jpg",
+        "synopsis": "La historia de un grupo de jóvenes en un colegio militar de Lima, Perú, y su lucha por sobrevivir en un ambiente de corrupción y violencia.",
+        "year": 1962,
+        "ISBN": "978-8423342672",
+        "author": {
+          "name": "Mario Vargas Llosa",
+          "otherbooks": ["La casa verde", "Conversación en La Catedral"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "El laberinto de los espíritus",
+        "pages": 928,
+        "genre": "Novela",
+        "cover": https://m.media-amazon.com/images/I/816EhoRnEdL._SL1500_.jpg",
+        "synopsis": "El último libro de la serie del Cementerio de los Libros Olvidados, que sigue los secretos de la familia Sempere en la Barcelona de la posguerra.",
+        "year": 2016,
+        "ISBN": "978-8408186823",
+        "author": {
+          "name": "Carlos Ruiz Zafón",
+          "otherbooks": ["La sombra del viento", "El juego del ángel"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Aura",
+        "pages": 96,
+        "genre": "Novela",
+        "cover": "https://m.media-amazon.com/images/I/6108hIo2bLL._SY445_SX342_.jpg",
+        "synopsis": "La historia de Felipe Montero, un joven historiador que responde a un anuncio de trabajo para transcribir los manuscritos del difunto General Llorente.",
+        "year": 1962,
+        "ISBN": "978-8432248196",
+        "author": {
+          "name": "Carlos Fuentes",
+          "otherbooks": ["La muerte de Artemio Cruz", "Terra Nostra"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Los detectives salvajes",
+        "pages": 688,
+        "genre": "Novela",
+        "cover": "https://m.media-amazon.com/images/I/71LLblKLkbL._SL1500_.jpg",
+        "synopsis": "La búsqueda de los escritores Arturo Belano y Ulises Lima para encontrar al poeta desaparecido César Vallejo, llevándolos por todo el continente americano.",
+        "year": 1998,
+        "ISBN": "978-8433967256",
+        "author": {
+          "name": "Roberto Bolaño",
+          "otherbooks": ["2666", "Amuleto"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "La casa de los espíritus",
+        "pages": 560,
+        "genre": "Novela",
+        "cover": "https://m.media-amazon.com/images/I/81-GChy7dhL._SL1500_.jpg",
+        "synopsis": "La saga de la familia Trueba en Chile, desde la joven Clara que tiene visiones hasta la ascensión y caída de su nieto, Alba, en medio de la política y la revolución.",
+        "year": 1982,
+        "ISBN": "978-8401423138",
+        "author": {
+          "name": "Isabel Allende",
+          "otherbooks": ["Eva Luna", "Hija de la fortuna"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Crónica de una muerte anunciada",
+        "pages": 128,
+        "genre": "Novela",
+        "cover": "https://m.media-amazon.com/images/I/91geyJSGR6L._SY522_.jpg",
+        "synopsis": "La crónica del asesinato de Santiago Nasar, contada a través de los recuerdos de los habitantes de un pequeño pueblo en América Latina.",
+        "year": 1981,
+        "ISBN": "978-8433920107",
+        "author": {
+          "name": "Gabriel García Márquez",
+          "otherbooks": ["Cien años de soledad", "El amor en los tiempos del cólera"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "La casa de Bernarda Alba",
+        "pages": 88,
+        "genre": "Drama",
+        "cover": "https://m.media-amazon.com/images/I/610rduRlObL._SL1500_.jpg",
+        "synopsis": "La obra de teatro que presenta la opresión y represión dentro de una familia española dirigida por la severa Bernarda Alba después de la muerte de su esposo.",
+        "year": 1945,
+        {
+          "name": "Federico García Lorca",
+          "otherbooks": ["Bodas de sangre", "Yerma"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Bodas de sangre",
+        "pages": 88,
+        "genre": "Teatro",
+        "cover": "https://m.media-amazon.com/images/I/61Td00EqZ9L._SL1500_.jpg",
+        "synopsis": "Una tragedia que sigue el triángulo amoroso entre la Novia, el Novio y Leonardo, explorando temas de destino, tradición y pasión desenfrenada.",
+        "year": 1933,
+        "ISBN": "978-8497403117",
+        "author": {
+          "name": "Federico García Lorca",
+          "otherbooks": ["La casa de Bernarda Alba", "Yerma"]
+        }
+      }
+    },
+    {
+      "book": {
+        "title": "Yerma",
+        "pages": 80,
+        "genre": "Teatro",
+        "cover": "https://m.media-amazon.com/images/I/31q3dUG2gxL._SY445_SX342_.jpg",
+        "synopsis": "La historia de una mujer que lucha con su deseo de tener hijos en medio de una sociedad que la juzga y limita su libertad.",
+        "year": 1934,
+        "ISBN": "978-8497403568",
+        "author": {
+          "name": "Federico García Lorca",
+          "otherbooks": ["La casa de Bernarda Alba", "Bodas de sangre"]
+        }
+      }
     }
+  
   ]
 }
